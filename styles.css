@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: black;
+}
+
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  color: #ffffff;
+  justify-content: center;
+  word-wrap: break-word;
+  flex-direction: row;
+  margin-top: 50px;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  margin: 12px;
+  object-fit: cover;
+  position: relative;
+}
+
+.container {
+  margin-top: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
+
+}
+
+.fullpage {
+  display: flex;
+}
